@@ -1,16 +1,27 @@
-# simple_notification
+## Description
 
-A new Flutter project.
+Projek ini merupakan latihan menampilkan notifikasi sederhana dengan menggunakan beberapa package seperti [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) [rxdart](https://pub.dev/packages/rxdart) [http](https://pub.dev/packages/http) dan [path_provider](https://pub.dev/packages/path_provider). Dalam project ini terdapat beberapa poin latihan notifikasi seperti :
+1. Membuat notifikasi secara sederhana.
+2. Membuat berbagai macam jenis notifikasi.
+3. Mengarahkan notifikasi ke halaman tertentu ketika di klik dan mengirimkan data.
 
-## Getting Started
+## Development Setup
 
-This project is a starting point for a Flutter application.
+Clone the repository and run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Source
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dicoding Academy
+
+## Screenshot Platform Android
+
+<img src="assets/screenshot/allow_android.png" height="500em" /> &nbsp; <img src="assets/screenshot/notif_android.png" height="500em" />
+
+## Screenshot Platform iOS
+
+<img src="assets/screenshot/allow_ios.png" height="500em" /> &nbsp; <img src="assets/screenshot/notif_ios.png" height="500em" />
